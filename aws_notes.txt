@@ -1,0 +1,63 @@
+AWS Cloud: Start with AWS Certified Solutions Architect Associate,
+then move on to AWS Certified Developer Associate and then AWS Certified SysOps Administrator.
+Afterwards you can either do AWS Certified Solutions Architect Professional or AWS Certified DevOps Professional,
+or a specialty certification of your choosing.
+Once ready, you can learn AWS Lambda and AWS CloudFormation in depth, or do the AWS Big Data certification.
+
+## AWS Certified Solutions Architect Associate Certification SAA-C02
+
+
+###################
+# personal account
+###################
+12-digit = 697934612948
+
+- IAM user
+rishi-srivastava
+srivrish
+<SCB>
+
+
+############################
+# AWS Global infrastructure
+############################
+
+# AWS Regions
+- Regions are all around the world
+example:
+us-east-1, ap-east-1
+
+- region is a cluster of data centers
+- chosing a region depends on: proximity, compliance, availablity services, pricing
+
+
+# AWS Availability Zones
+- each region has many availability zones - min 2, max 6
+- example:
+region "ap-southeast-2" has 3 availability zones:
+ ap-southeast-2a
+ ap-southeast-2b
+ ap-southeast-2c
+
+- each availability zone can have more than 1 data centers
+- each availability zone is separate from each other isolated from disasters
+- each availability zone is connected with each other with high bw, ultra-low latency nw
+
+
+# AWS Points of Presence (Edge Locations)
+- special locations with lower latency service
+
+
+# AWS Global services
+- Identity and Access Management (IAM)
+- Route 53 (DNS service)
+- CloudFront (Content Delivery Network)
+- WAF (Web Application Firewall)
+
+# Most AWS services are Region-scoped:
+- Amazon EC2 (Infrastructure as a Service)
+- Elastic Beanstalk (Platform as a Service)
+- Lambda (Function as a Service)
+- Rekognition (Software as a Service)
+
+
